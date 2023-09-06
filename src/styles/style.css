@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 215, 203);
+}
+
+.wrapper-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(224, 215, 203);
+  background-color: whitesmoke;
+  margin: 10% 20% 0;
+  border-radius: 12px;
+}
+
+.big-title {
+  align-self: center;
+  margin-left: 5rem;
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 90%;
+  margin: 22px 0;
+}
+
+.recent-content {
+  background-color: lightgreen;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12px;
+  border-bottom: 2px solid whitesmoke;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.score-board {
+  padding: 12px;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.score-board li:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.score-board li:nth-child(odd) {
+  background-color: lightgreen;
+}
+
+.score-board-content {
+  border-bottom: 1px solid whitesmoke;
+  padding: 8px;
+  list-style-type: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 6px;
+  gap: 12px;
+  width: 100%;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.submit {
+  align-self: flex-end;
+  padding: 4px;
+  width: 30%;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.submit:hover {
+  background-color: green;
+}
+
+.submit:active {
+  background-color: darkgreen;
+}
