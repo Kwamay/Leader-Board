@@ -1,5 +1,8 @@
 import './styles/style.css';
+import leaderboard from './assets/leaderboard.jpg';
 
+const leaderboardImg = document.getElementById('pic');
+leaderboardImg.src = leaderboard;
 const leaderboardAPIUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 const gameId = 'B7cRJLrPYG6BThBwFVzP';
 
