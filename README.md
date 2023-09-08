@@ -74,7 +74,7 @@ It also allows the student to showcase what they can do to the future employee.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Live Demo will be added soon[Github Pages]()
+> See Live Demo Here[Github Pages](https://kwamay.github.io/Leader-Board/dist)
 
 <!-- - [Live Demo Link](https://google.com) -->
 
