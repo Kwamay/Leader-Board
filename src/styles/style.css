@@ -19,10 +19,14 @@ body {
   border-radius: 12px;
 }
 
+#pic {
+  background-image: url('../assets/leaderboard.jpg');
+}
+
 .big-title {
   align-self: center;
   margin-left: 5rem;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .container {
